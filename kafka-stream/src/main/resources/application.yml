@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: my-stream-app
+  kafka:
+    bootstrap-servers:
+    - 127.0.0.1:9092
+    streams:
+      application-id: kafka-uppercase-stream-app

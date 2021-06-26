@@ -1,0 +1,26 @@
+#kafka:
+#  bootstrapAddress: 127.0.0.1:9092
+
+#spring:
+#  kafka:
+#    consumer:
+#      auto-offset-reset: earliest
+spring:
+  kafka:
+    listener:
+      type: batch # single - the default
+      concurrency: 3
+    #consumer:
+    #  max-poll-records: 50   
+
+      
+
+elasticsearch:
+  hostAndPort: "put your host and port here"
+  accessKey: "put your username"
+  secret: "put your password"
+  
+logging:
+  level:
+    org.springframework.data.elasticsearch.client.WIRE: trace
+    

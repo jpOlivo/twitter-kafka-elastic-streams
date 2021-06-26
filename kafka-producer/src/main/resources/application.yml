@@ -1,0 +1,12 @@
+kafka:
+  bootstrapAddress: 127.0.0.1:9092
+
+twitter4j:
+  oauth:
+    consumerKey: "put your consumer key here"   
+    consumerSecret: "put your consumer secret here"
+    accessToken: "put your access token here"
+    accessTokenSecret: "put your access token secret here"
+    
+scheduler:
+  fixedDelay: 5    
